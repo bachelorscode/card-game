@@ -82,14 +82,14 @@ class _SplashState extends State<Splash> {
               ),
             ),
             actions: [
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   storageController.removeToken();
                   Get.offAndToNamed('/login');
                 },
                 child: Text('Logout'),
               ),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   checkAuth(
                     apiController: apiController,
@@ -131,14 +131,14 @@ class _SplashState extends State<Splash> {
               ),
             ),
             actions: [
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   storageController.removeToken();
                   Get.offAndToNamed('/login');
                 },
                 child: Text('Logout'),
               ),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () {
                   checkAuth(
                     apiController: apiController,

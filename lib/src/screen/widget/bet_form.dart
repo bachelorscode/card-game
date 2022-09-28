@@ -49,19 +49,19 @@ class BetForm extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     textEditingController.text = '100';
                   },
                   child: Text('100'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     textEditingController.text = '500';
                   },
                   child: Text('500'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     textEditingController.text = '1000';
                   },
@@ -75,19 +75,19 @@ class BetForm extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     textEditingController.text = '10000';
                   },
                   child: Text('10000'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     textEditingController.text = '20000';
                   },
                   child: Text('20000'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     textEditingController.text = '50000';
                   },

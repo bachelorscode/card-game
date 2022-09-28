@@ -50,13 +50,13 @@ class _LoginScreenState extends State<LoginScreen> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('exit'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     checkAuth();
@@ -87,13 +87,13 @@ class _LoginScreenState extends State<LoginScreen> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('exit'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     checkAuth();

@@ -78,13 +78,13 @@ class _GameScreenState extends State<GameScreen> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('Logout'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     checkAuth();
@@ -115,13 +115,13 @@ class _GameScreenState extends State<GameScreen> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('Logout'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     checkAuth();

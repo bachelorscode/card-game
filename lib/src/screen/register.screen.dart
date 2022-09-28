@@ -86,13 +86,13 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('exit'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     checkAuth();
                   },
@@ -122,13 +122,13 @@ class _RegistrationScreenState extends State<RegistrationScreen> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('exit'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     checkAuth();
                   },

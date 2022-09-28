@@ -83,13 +83,13 @@ class _GameItemState extends State<GameItem> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('OKAY'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     betting(
@@ -129,13 +129,13 @@ class _GameItemState extends State<GameItem> {
                 ],
               ),
               actions: [
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                   },
                   child: Text('OKAY'),
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).pop();
                     betting(
